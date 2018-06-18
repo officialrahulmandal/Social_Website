@@ -102,6 +102,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
 from django.core.urlresolvers import reverse_lazy
 
